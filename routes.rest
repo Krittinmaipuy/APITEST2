@@ -22,3 +22,16 @@ Content-Type: application/json
 {
     "subscribedToChannel":"Camping"
 }
+
+###
+POST http://apitest2.app.ruk-com.cloud/subscribers
+Content-Type: application/json
+
+{
+    "name":"Homer Simpson",
+    "subscribedToChannel":"Beers"
+}
+
+###
+GET  http://apitest2.app.ruk-com.cloud/subscribers
+
