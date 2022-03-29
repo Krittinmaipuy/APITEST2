@@ -1,4 +1,24 @@
 GET http://localhost:3000/subscribers
 
 ###
-GET http://localhost:3000/subscribers/1556
+GET http://localhost:3000/subscribers/6242a4e338bc691f4ff0fb96
+
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name":"Krittin Maipuy",
+    "subscribedToChannel":"Eat and Travel"
+}
+
+###
+DELETE  http://localhost:3000/subscribers/6241deb97902595a6ddc9892
+
+###
+PATCH  http://localhost:3000/subscribers/6242a78d38bc691f4ff0fba1
+Content-Type: application/json
+
+{
+    "subscribedToChannel":"Camping"
+}
